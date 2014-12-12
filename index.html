@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html dir="ltr" lang="en-US" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html dir="ltr" lang="en-US" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html dir="ltr" lang="en-US" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html dir="ltr" lang="en-US" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html dir="ltr" lang="en-US" class="no-js"> <!--<![endif]-->
+
+<head>
+  <title>CMAP Bikeway Feasibility Study</title>
+
+  <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"transactionName":"MgMDYUIHWRVZBhYLVgtJJ0BeBUMPVwtNElUECANaSDlCDxYTCwdOFlwxR18MUgVMNQMFXDMPBEI=","licenseKey":"c6c094571b","beacon":"beacon-2.newrelic.com","queueTime":5,"agent":"js-agent.newrelic.com/nr-476.min.js","applicationTime":206,"applicationID":"2483395","errorBeacon":"bam.nr-data.net"}</script>
+
+  
+  <meta name="description" content="How do we get there from here?">
+  
+  <meta name="author" content="OpenPlans">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@planinabox">
+  <meta name="twitter:title" content="CMAP Bikeway Feasibility Study">
+  <meta name="twitter:description" content="How do we get there from here?">
+  
+  
+
+  <!-- Facebook -->
+  <meta property="og:site_name" content="OpenPlans"/>
+  <meta property="og:title" content="CMAP Bikeway Feasibility Study" />
+  <meta property="og:description" content="How do we get there from here?" />
+  
+
+
+
+  <!--  Mobile Viewport Fix -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  
+  
+  <link rel="icon" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.png">
+  
+
+  
+  <!-- <link rel="shortcut icon" sizes="144x144" href="/static/images/apple-touch-icon-144x144-precomposed.png">
+  <link rel="shortcut icon" sizes="114x114" href="/static/images/apple-touch-icon-114x114-precomposed.png">
+  <link rel="shortcut icon" sizes="72x72" href="/static/images/apple-touch-icon-72x72-precomposed.png">
+  <link rel="shortcut icon" href="/static/images/apple-touch-icon-precomposed.png">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/images/apple-touch-icon-144x144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/images/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/images/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="/static/images/apple-touch-icon-precomposed.png"> -->
+  
+
+
+  <!-- Google Web Fonts -->
+  <!-- <link href='//fonts.googleapis.com/css?family=Alegreya+Sans:100,400,800,400italic,800italic,100italic' rel='stylesheet' type='text/css'> -->
+  <link href='//fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="static/styles/components.min.css" />
+  
+
+
+  
+  
+
+  <link rel="stylesheet" href="static/styles/style.min.css" type="text/css" />
+
+   
+
+  
+
+
+
+  
+  <script src="static/scripts/modernizr.min.js"></script>
+  
+</head>
+<body>
+
+  <!--[if lt IE 9]>
+    <div class="alert-box alert text-center" style="margin:0;"><h1>Your browser is not supported.</h1> <h3>Please <a href="http://browsehappy.com/">upgrade your browser</a> to start using OpenPlans.</h3></div>
+  <![endif]-->
+  <!--[if IE 9 ]>
+    <div class="alert-box text-center" style="margin:0;"><strong>You're using an outdated browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</strong></div>
+  <![endif]-->
+
+
+  
+
+  <div id="page">
+    
+  </div>
+  <div id="modal-container"></div>
+
+  
+  <script src="static/scripts/components-base.min.js"></script>
+  
+
+  <script>
+    $(document).foundation();
+  </script>
+
+  
+  
+  <script src="static/scripts/components.min.js"></script>
+  
+  <script>Swag.registerHelpers(Handlebars);</script>
+
+  <script>
+    var Planbox = Planbox || {}
+
+    Planbox.bootstrapped = {
+      staticUrl: '/static/',
+      projectRootPath: '/smeekins/bikeway-feasibility-study-map/'
+    };
+
+    Planbox.Data = {
+      project: {"events": [{"label": "Project Kickoff", "description": "", "attachments": [], "details": {}, "id": 605, "slug": "project-kickoff", "datetime_label": "August 14, 2014", "start_datetime": "2014-08-14T17:00:00Z", "end_datetime": null}, {"label": "Steering Committee Meeting", "description": "", "attachments": [], "details": {}, "id": 606, "slug": "steering-committee-meeting", "datetime_label": "September 2014", "start_datetime": null, "end_datetime": null}, {"label": "Develop Initial Routes", "description": "", "attachments": [], "details": {}, "id": 607, "slug": "develop-initial-routes", "datetime_label": "August - October", "start_datetime": null, "end_datetime": null}, {"label": "Develop and Apply Evaluation Criteria", "description": "", "attachments": [], "details": {}, "id": 608, "slug": "develop-and-apply-evaluation-criteria", "datetime_label": "November - January", "start_datetime": null, "end_datetime": null}, {"label": "Public Meeting #1", "description": "", "attachments": [], "details": {}, "id": 609, "slug": "public-meeting-1", "datetime_label": "January 2015", "start_datetime": null, "end_datetime": null}, {"label": "Identify and Evaluate Top 2 Routes", "description": "", "attachments": [], "details": {}, "id": 610, "slug": "identify-and-evaluate-top-2-routes", "datetime_label": "January - March", "start_datetime": null, "end_datetime": null}, {"label": "Public Meeting #2", "description": "", "attachments": [], "details": {}, "id": 611, "slug": "public-meeting-2", "datetime_label": "March 2015", "start_datetime": null, "end_datetime": null}, {"label": "Select Final Route", "description": "", "attachments": [], "details": {}, "id": 612, "slug": "select-final-route", "datetime_label": "March - April", "start_datetime": null, "end_datetime": null}, {"label": "Develop Implementation Strategy", "description": "", "attachments": [], "details": {}, "id": 613, "slug": "develop-implementation-strategy", "datetime_label": "April - May", "start_datetime": null, "end_datetime": null}], "sections": [{"details": {"content": "<div><span>The northeastern Illinois region is fortunate to have abundant natural resources with a great diversity of habitats. World-class bike trails also pass through the region, providing access to the area's Forest Preserves, parks, and other destinations and offering a comfortable transportation option for people traveling by bike.&nbsp;</span></div><div><span><br></span></div><div><span>However, despite all these resources, many gaps exist between bike facilities and between bike routes and these prominent destinations. One such gap, between the Fox River Trail and the Old Stover Trail, has been identified as a priority in several regional plans. Connecting these two trails six miles apart would open up access by bicyclists to the Crabtree Nature Center and destinations further east, including Busse Woods, eight miles southeast of the study area.</span></div><div><br></div>The Chicago Metropolitan Agency for Planning (CMAP) has funded this feasibility study to identify potential bike routes, analyze them to determine the best option, and recommend the appropriate type of bicycle facility, such as sidepaths, bike lane markings, or paved shoulders.<div><br>As community stakeholders, you will help guide this process by helping to establish evaluation criteria based on what is most important to you. You will help us narrow the many possible route combinations down to two choices and, eventually, one preferred route. Please take our survey <a href=\"https://www.surveymonkey.com/s/foxrivertrailconnections\">here</a> to provide initial input.</div>"}, "id": 2312, "created_at": "2014-10-22T19:20:32.924Z", "updated_at": "2014-10-27T21:23:44.088Z", "type": "text", "label": "Project Background", "menu_label": "Project Background", "slug": "project-backgr-2", "active": true}, {"details": {"place_styles": [{"condition": "'{{category}}' === 'favorite-destination'", "icon": {"iconAnchor": [11, 11], "iconSize": [22, 22], "iconUrl": "static/images/dot-ff78be.png"}, "focusIcon": {"iconAnchor": [25, 59], "iconSize": [50, 60], "iconUrl": "static/images/fav-route.png"}}, {"condition": "'{{category}}' === 'good-route'", "icon": {"iconAnchor": [11, 11], "iconSize": [22, 22], "iconUrl": "static/images/dot-c4ed52.png"}, "focusIcon": {"iconAnchor": [25, 59], "iconSize": [50, 60], "iconUrl": "static/images/thumbs-up.png"}}, {"condition": "'{{category}}' === 'difficult-crossing'", "icon": {"iconAnchor": [11, 11], "iconSize": [22, 22], "iconUrl": "static/images/dot-ffd614.png"}, "focusIcon": {"iconAnchor": [25, 59], "iconSize": [50, 60], "iconUrl": "static/images/bike-crossing.png"}}, {"condition": "'{{category}}' === 'bad-route'", "icon": {"iconAnchor": [11, 11], "iconSize": [22, 22], "iconUrl": "static/images/dot-fa0041.png"}, "focusIcon": {"iconAnchor": [25, 59], "iconSize": [50, 60], "iconUrl": "static/images/thumbs-down.png"}}], "description": "We're conducting a feasibility study to develop a new bikeway in Barrington Hills, IL connecting the Fox River Trail to the Old Stover Trail.", "templates": {"place-form": "<div class=\"row\">\n  <div class=\"columns\">\n\n    <div data-alert class=\"alert-box warning radius text-center form-instructions\">\n      <strong>Drag the map to your location.</strong>\n    </div>\n\n    <form novalidate>\n\n      <h3><strong>What would you like to share?</strong></h3>\n\n      <input id=\"favorite-destination\" type=\"radio\" name=\"category\" value=\"favorite-destination\" class=\"hide toggle-sibling-input-1\">\n      <label style=\"min-width:40%;\" for=\"favorite-destination\" class=\"toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button radius\"><img class=\"inline-icon large\" src=\"static/images/fav-route.png\">&nbsp;<strong>Favorite Destination</strong></label>\n\n      <input id=\"good-route\" type=\"radio\" name=\"category\" value=\"good-route\" class=\"hide toggle-sibling-input-2\">\n      <label style=\"min-width:40%;\" for=\"good-route\" class=\"toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button radius\"><img class=\"inline-icon large\" src=\"static/images/thumbs-up.png\">&nbsp;<strong>Desirable Bike Route</strong></label>\n\n      <input id=\"difficult-crossing\" type=\"radio\" name=\"category\" value=\"difficult-crossing\" class=\"hide toggle-sibling-input-3\">\n      <label style=\"min-width:40%;\" for=\"difficult-crossing\" class=\"toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button radius\"><img class=\"inline-icon large\" src=\"static/images/bike-crossing.png\">&nbsp;<strong>Difficult Crossing</strong></label>\n\n      <input id=\"bad-route\" type=\"radio\" name=\"category\" value=\"bad-route\" class=\"hide toggle-sibling-input-4\">\n      <label style=\"min-width:40%;\" for=\"bad-route\" class=\"toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button radius\"><img class=\"inline-icon large\" src=\"static/images/thumbs-down.png\">&nbsp;<strong>Undesirable Bike Route</strong></label>\n\n      <label class=\"toggle-sibling-1\">Location\n        <textarea name=\"location-name\" placeholder=\"Location...\" required></textarea>\n      </label>\n\n      <label class=\"toggle-sibling-3\">What street/intersection is this? \n        <textarea name=\"street-name\" placeholder=\"Street...\" required></textarea>\n      </label>\n\n      <label class=\"toggle-sibling-2 toggle-sibling-4\">What street/route is this? \n        <textarea name=\"street-name\" placeholder=\"Street...\" required></textarea>\n      </label>\n\n      <div class=\"toggle-sibling-3\">\n        <label>What's at this intersection?</label>\n        <input id=\"traffic-signal\" type=\"radio\" name=\"crossing-type\" value=\"traffic-signal\" class=\"hide\">\n        <label for=\"traffic-signal\" class=\"toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button small radius\" required><strong>Traffic Signal</strong></label>\n        <input id=\"stop-sign\" type=\"radio\" name=\"crossing-type\" value=\"stop-sign\" class=\"hide\">\n        <label for=\"stop-sign\" class=\"toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button small radius\"><strong>Stop Sign</strong></label>\n        <input id=\"none\" type=\"radio\" name=\"crossing-type\" value=\"none\" class=\"hide\">\n        <label for=\"none\" class=\"toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button small radius\"><strong>Neither</strong></label>\n      </div>\n\n      <div class=\"toggle-sibling-1 toggle-sibling-2 toggle-sibling-3 toggle-sibling-4\">\n        <label>Description</label>\n        <textarea name=\"description\" placeholder=\"...\" required></textarea>\n\n        {{#if submitter}}\n        <label>Your Email\n          <input type=\"email\" name=\"private_email\" placeholder=\"optional\" data-sticky />\n        </label>\n        {{else}}\n        <div class=\"row\">\n          <div class=\"large-6 columns\">\n            <label>Your Name\n              <input type=\"text\" name=\"submitter_name\" required data-sticky />\n            </label>\n          </div>\n          <div class=\"large-6 columns\">\n            <label>Your Email\n              <input type=\"email\" name=\"private_email\" placeholder=\"optional\" data-sticky />\n            </label>\n          </div>\n        </div>\n        <p class=\"text-right text-small no-margins\"><span class=\"or-sign-in\">Or sign in with <a class=\"auth-inline shareabouts-auth-twitter-button\" href=\"#\">TWITTER</a> / <a class=\"auth-inline shareabouts-auth-facebook-button\" href=\"#\">FACEBOOK</a></span></p>\n        {{/if}}\n\n        <h6 class=\"some-padding-top\">A few quick questions about yourself. These are private.</h6>\n\n        <div class=\"row\">\n          <div class=\"medium-6 columns\">\n            <label>What is your home zip code?\n              <input type=\"text\" name=\"private-zip\" pattern=\"\\d*\" data-sticky />\n            </label>\n          </div>\n\n          <div class=\"medium-6 columns\">\n            <label>What is your municipality?\n              <input type=\"text\" name=\"private-municipality\" data-sticky />\n            </label>\n          </div>\n\n          <div class=\"medium-6 columns\">\n            <label>What is your age?\n              <input type=\"number\" name=\"private-age\" data-sticky />\n            </label>\n          </div>\n\n          <div class=\"medium-6 columns\">\n            <label>What is your gender?\n              <select name=\"private-gender\" data-sticky>\n                <option></option>\n                <option value=\"female\">Female</option>\n                <option value=\"male\">Male</option>\n                <option value=\"other\">Other</option>\n              </select>\n            </label>\n          </div>\n        </div>\n\n        <div class=\"row some-padding-top\">\n          <div class=\"medium-6 columns\">\n            <input type=\"submit\" value=\"Put On Map\" class=\"button large expand shareabouts-submit-button\"/>\n          </div>\n          <div class=\"medium-6 columns signed-in-as\">\n            {{#if submitter}}\n            <img src=\"{{ submitter.avatar_url }}\" class=\"avatar\" /> {{ submitter.name }}\n            {{/if}}\n          </div>\n        </div>\n\n      </div>\n    </form>\n\n  </div>\n</div>", "add-button": "<a href=\"#\" class=\"shareabouts-add-button button\"><span>Tell us where you bike&hellip;</span></a>", "place-detail": "<div class=\"row\">\n  <div class=\"columns\">\n\n    <section class=\"promotion clearfix right some-margin-left\">\n      <div class=\"support support-region\"></div>\n    </section>\n\n    <header class=\"place-header\">\n      <h3><strong>\n        {{#if location-name}}{{ location-name }}{{^}}{{street-name}}{{/if}}\n      </strong></h3>\n\n      <p class=\"text-small\">\n        <strong>{{#is category 'favorite-destination'}}A Favorite Destination{{/is}}\n        {{#is category 'good-route'}}A Desirable Bike Route{{/is}}\n        {{#is category 'difficult-crossing'}}A Difficult Crossing{{/is}}\n        {{#is category 'bad-route'}}An Undesireable Bike Route{{/is}}</strong>\n        identified\n        {{#if submitter.name }}by <strong>{{ submitter.name }}</strong><br>\n        {{else}}\n          {{#if submitter_name }}by <strong>{{ submitter_name }}</strong><br>{{/if}}\n        {{/if}}\n        {{ fromnow created_datetime }}\n      </p>\n    </header>\n\n    <section>\n      <p>{{ description }}</p>\n    </section>\n\n    <section class=\"survey-region\"></section>\n\n  </div>\n</div>", "legend": "<button href=\"#\" class=\"shareabouts-legend-button button small less-padding shadowed\">Legend</button>\n<div class=\"shareabouts-legend legend-open\">\n\n  <table class=\"shareabouts-legend-table no-margins\">\n    <tr><td><img class=\"focus-marker\" src=\"static/images/fav-route.png\"><img src=\"static/images/dot-ff78be.png\"></td><td><span class=\"nowrap\">Favorite Destination</span></td></tr>\n    <tr><td><img class=\"focus-marker\" src=\"static/images/thumbs-up.png\"><img src=\"static/images/dot-c4ed52.png\"></td><td><span class=\"nowrap\">Desirable Bike Route</span></td></tr>\n    <tr><td><img class=\"focus-marker\" src=\"static/images/bike-crossing.png\"><img src=\"static/images/dot-ffd614.png\"></td><td><span class=\"nowrap\">Difficult Crossing</span></td></tr>\n    <tr><td><img class=\"focus-marker\" src=\"static/images/thumbs-down.png\"><img src=\"static/images/dot-fa0041.png\"></td><td><span class=\"nowrap\">Undesirable Bike Route</span></td></tr>\n  </table>\n\n</div>\n"}, "layers": [{"url": "//{s}.tiles.mapbox.com/v3/openplans.map-dmar86ym/{z}/{x}/{y}.png"}, {"url": "//{s}.tiles.mapbox.com/v3/openplans.168-CMAP-Bikeway/{z}/{x}/{y}.png"}, {"url": "//{s}.tiles.mapbox.com/v3/openplans.168-Bikeway-zoomout/{z}/{x}/{y}.png"}], "map": {"scrollWheelZoom": false, "center": [42.09975085874949, -88.20991516113281], "zoom": 12}, "dataset_url": "https://data.shareabouts.org/api/v2/planbox/datasets/openplans-2-1414005911081"}, "id": 2317, "created_at": "2014-10-22T19:21:58.450Z", "updated_at": "2014-11-07T18:55:47.026Z", "type": "shareabouts", "label": "", "menu_label": "", "slug": "map", "active": true}, {"details": {}, "id": 2313, "created_at": "2014-10-22T19:20:32.933Z", "updated_at": "2014-10-27T21:23:44.105Z", "type": "text", "label": "", "menu_label": "", "slug": "text-3", "active": true}, {"details": {"content": "This process will take roughly 10 months to complete. The fall will be used for information gathering, including a community survey. The winter months will be used to analyze the routes from a number of perspectives, including environmental impacts, safety for all users, and cost. In early spring, a final route will be selected and refined."}, "id": 2314, "created_at": "2014-10-22T19:20:32.941Z", "updated_at": "2014-10-27T21:23:44.112Z", "type": "text", "label": "Study Timeline", "menu_label": "", "slug": "text", "active": true}, {"details": {}, "id": 2315, "created_at": "2014-10-22T19:20:32.947Z", "updated_at": "2014-10-27T21:23:44.116Z", "type": "timeline", "label": "", "menu_label": "Timeline", "slug": "timeline", "active": true}, {"details": {"content": ""}, "id": 2316, "created_at": "2014-10-22T19:20:32.955Z", "updated_at": "2014-10-27T21:23:44.122Z", "type": "text", "label": "Frequently Asked Questions", "menu_label": "FAQ", "slug": "faq-2", "active": false}], "owner": {"id": 853, "slug": "smeekins", "name": "Sam Schwartz Engineering", "avatar_url": null}, "title": "CMAP Bikeway Feasibility Study", "location": "Northwest Cook and Kane Counties", "contact": "", "details": {"customer": null, "tagline": "How do we get there from here?"}, "happening_now_description": "", "get_involved_description": "", "geometry": {"coordinates": [-88.20167541503906, 42.095165405549494], "type": "Point"}, "id": 591, "created_at": "2014-10-22T19:20:32Z", "updated_at": "2014-11-07T18:55:47.019Z", "slug": "bikeway-feasibility-study-map", "public": true, "status": "not-started", "theme": null, "layout": "shareabouts", "cover_img_url": "static/images/Route%20Signs2_zoom.jpg", "logo_img_url": "", "template": 103, "customer": null, "happening_now_link_type": "section", "happening_now_link_url": "#section-timeline", "get_involved_link_type": "external", "get_involved_link_url": ""},
+      user: null,
+      isEditable: false,
+      statuses: [
+        { 'value': 'not-started', 'label': 'Not Started'},
+        { 'value': 'active', 'label': 'Active'},
+        { 'value': 'complete', 'label': 'Complete'}
+      ],
+      contactEmail: "hello@openplans.org",
+      s3UploadBucket: "planbox-media",
+      s3UploadData: ""
+    };
+  </script>
+
+  
+    
+    <script src="static/scripts/project-display-shareabouts-app.min.js"></script>
+    
+  
+
+  
+
+  
+  <script type="text/x-handlebars-template" id="url-project-display-tpl">/{{ ./owner.slug }}/{{ ./slug }}/</script><script>(function(H) {var source = document.getElementById("url-project-display-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["url-project-display-tpl"] = template;H.registerPartial("url-project-display-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="url-project-payments-tpl">/{{ default ./owner.slug ./owner }}/{{ ./slug }}/payments/</script><script>(function(H) {var source = document.getElementById("url-project-payments-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["url-project-payments-tpl"] = template;H.registerPartial("url-project-payments-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="project-expiration-message-tpl">{{#isfuture expires_at}}
+  <strong>
+    {{#if payment_type}}
+      <em>Your plan expires {{ fromnow expires_at }}.</em>
+    {{else}}
+      <em>Your trial expires {{ fromnow expires_at }}.</em>
+    {{/if}}
+    <a href="{{>url-project-payments-tpl}}" data-log-click>Activate Plan</a>
+  </strong>
+{{else}}
+  <strong>
+    {{#if payment_type}}
+      <em>Your plan has expired.</em>
+    {{else}}
+      <em>Your trial has expired.</em>
+    {{/if}}
+    <a href="{{>url-project-payments-tpl}}" data-log-click>Activate Plan</a>
+  </strong>
+{{/isfuture}}
+</script><script>(function(H) {var source = document.getElementById("project-expiration-message-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["project-expiration-message-tpl"] = template;H.registerPartial("project-expiration-message-tpl", template);})(Handlebars);</script>
+
+  
+  <script type="text/x-handlebars-template" id="auth-actions">{{^if .}}
+  <button href="#" data-dropdown="shareaboutsauth" data-options="align:left" aria-controls="shareaboutsauth" aria-expanded="true" class="shareabouts-auth-button button small less-padding shadowed">Sign In</button>
+  <ul id="shareaboutsauth" data-dropdown-content class="f-dropdown text-center" aria-hidden="true" tabindex="-1">
+    <li><a class="shareabouts-auth-social-button shareabouts-auth-twitter-button" href="#"><strong><img src="{{ static_url }}images/social-twitter.gif">Twitter</strong></a></li>
+    <li><a class="shareabouts-auth-social-button shareabouts-auth-facebook-button" href="#"><strong><img src="{{ static_url }}images/social-facebook.gif">Facebook</strong></a></li>
+  </ul>
+{{else}}
+  <button href="#" data-dropdown="shareaboutsauth" data-options="align:left" aria-controls="shareaboutsauth" aria-expanded="true" class="shareabouts-auth-button button tiny less-padding dropdown"><img class="shareabouts-auth-avatar" src=" {{ avatar_url }} "></button>
+  <div id="shareaboutsauth" data-dropdown-content class="f-dropdown content text-center" aria-hidden="true" tabindex="-1">
+    Signed in as <strong class="nowrap">{{ name }}</strong><br/>
+    <strong><a class="shareabouts-auth-logout-button" href="#">Sign Out</a></strong>
+  </div>
+{{/if}}
+</script><script>(function(H) {var source = document.getElementById("auth-actions").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["auth-actions"] = template;H.registerPartial("auth-actions", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="place-form"><div data-alert class="alert-box info radius text-center form-instructions">
+  <strong>Drag the map to the place's location.</strong>
+</div>
+
+<form novalidate>
+  <input type="hidden" name="user_token" value="{{ userToken }}">
+
+  <h5>Add a Place</h5>
+
+  {{#if submitter}}
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Your Email
+        <input type="text" name="private-email" placeholder="optional" />
+      </label>
+    </div>
+  </div>
+  {{else}}
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Your Name
+        <input type="text" name="submitter_name" placeholder="optional" required />
+      </label>
+    </div>
+    <div class="large-6 columns">
+      <label>Your Email
+        <input type="text" name="private-email" placeholder="optional" />
+      </label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns text-right">
+      <span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">Twitter</a> <a class="auth-inline shareabouts-auth-facebook-button" href="#">Facebook</a></span>
+    </div>
+  </div>
+  {{/if}}
+
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Location Name
+        <input type="text" name="name" placeholder="optional" required />
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Description
+        <textarea name="description" placeholder="" required></textarea>
+      </label>
+    </div>
+  </div>
+
+  {{#if submitter}}
+  <div class="row">
+    <div class="small-6 columns">
+      <input type="submit" value="Add to Map" class="button small expand shareabouts-submit-button"/>
+    </div>
+    <div class="small-6 columns signed-in-as">
+      <img src="{{ submitter.avatar_url }}" class="avatar" /> {{ submitter.name }}
+    </div>
+  </div>
+  {{else}}
+    <input type="submit" value="Add to Map" class="button small expand shareabouts-submit-button"/>
+  {{/if}}
+</form></script><script>(function(H) {var source = document.getElementById("place-form").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["place-form"] = template;H.registerPartial("place-form", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="add-button"><a href="#" class="shareabouts-add-button button large"><span>Add a Place</span></a></script><script>(function(H) {var source = document.getElementById("add-button").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["add-button"] = template;H.registerPartial("add-button", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="place-survey-item"><article data-response-id="{{ id }}" class="response">
+  <header class="response-header clearfix">
+    <strong class="response-submitter">
+      {{#if submitter}}
+        <img src="{{ submitter.avatar_url }}" class="avatar" /> {{ submitter.name }}
+      {{^}}
+        <img src="{{ static_url }}images/avatar-user.gif" class="avatar" /> {{ submitter_name }}
+      {{/if}}
+    </strong>
+    <small class="response-date">
+      around {{ fromnow created_datetime }}
+    </small>
+  </header>
+
+  <div class="response-body">
+    <div class="response-item response-item-comment">
+      <p class="response-value response-value-comment">{{ comment }}</p>
+    </div>
+  </div>
+</article>
+</script><script>(function(H) {var source = document.getElementById("place-survey-item").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["place-survey-item"] = template;H.registerPartial("place-survey-item", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="place-survey"><div class="row collapse survey-header-container">
+  <h5 class="small-7 columns survey-header some-padding-top no-margins">Comments</h5>
+  <div class="small-5 columns some-padding-top text-right">
+    <a href="#reply" class="button tiny right less-padding">Leave a Comment</a>
+  </div>
+</div>
+
+<ol class="survey-items no-bullet some-margin-top"></ol>
+
+<div id="reply">
+
+  <hr>
+
+  <form class="survey-form clearfix" action="#" method="post">
+    <input type="hidden" name="visible" value="on">
+    <input type="hidden" name="user_token" value="{{ userToken }}">
+
+    <div class="survey-field survey-field-comment">
+      <label class="survey-label survey-label-comment" for="survey-comment">
+        Comment
+      </label>
+      <div class="survey-widgets survey-widgets-comment">
+        <textarea class="survey-comment" name="comment" required="">{{comment}}</textarea>
+      </div>
+    </div>
+
+    {{^if submitter}}
+    <div class="survey-field survey-field-submitter_name">
+      <label class="survey-label survey-label-submitter_name" for="survey-submitter_name">
+        Your Name
+      </label>
+      <div class="survey-widgets survey-widgets-submitter_name">
+        <input class="survey-submitter-name" name="submitter_name" type="text" value="{{submitter_name}}">
+      </div>
+    </div>
+    {{/if}}
+
+    <input name="commit" type="submit" value="Comment" class="button">
+
+    {{#if submitter}}
+    <p class="signed-in-as right"><img src="{{ submitter.avatar_url }}" class="avatar" /> {{ submitter.name }}. <a class="shareabouts-auth-logout-button" href="#">Log Out</a></p>
+    {{/if}}
+
+    <div class="form-spinner"></div>
+  </form>
+</div>
+</script><script>(function(H) {var source = document.getElementById("place-survey").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["place-survey"] = template;H.registerPartial("place-survey", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="place-detail"><section class="promotion clearfix right some-margin-left">
+  <div class="support support-region"></div>
+</section>
+
+<header class="place-header clearfix">
+  <h4>{{ name }}</h4>
+  <small>Added
+    {{#if submitter_name }}by <em>{{ submitter_name }}</em>{{/if}}
+    {{ fromnow created_datetime }}
+  </small>
+</header>
+
+<section>
+  <p>{{ description }}</p>
+</section>
+
+<section class="survey-region"></section></script><script>(function(H) {var source = document.getElementById("place-detail").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["place-detail"] = template;H.registerPartial("place-detail", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="place-support"><form action="#" method="post" class="user-support">
+  <input type="hidden" name="user_token" value="{{{ user_token }}}">
+  <input type="hidden" name="visible" value="true">
+  <label for="support" class="button large less-padding radius">
+    <input type="checkbox" id="support"{{# hasUserSubmitted items }} checked="checked"{{/ hasUserSubmitted }} class="hide">
+    <span class="heart{{# hasUserSubmitted items }} suported{{/ hasUserSubmitted }}">&hearts;</span>
+    <span class="support-count">{{ items.length }}</span> {{ support_config.submit_btn_text }}
+  </label>
+</form>
+</script><script>(function(H) {var source = document.getElementById("place-support").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["place-support"] = template;H.registerPartial("place-support", template);})(Handlebars);</script>
+
+  
+  
+    <script type="text/x-handlebars-template" id="project-tpl"><a id="map"></a><div id="shareabouts-region" class="project-section-shareabouts project-shareabouts" data-magellan-destination="shareabouts-region"></div>
+
+<div class="after-shareabouts row container">
+
+  {{#if logo_img_url}}
+  <header class="small-12 medium-4 columns text-center medium-text-left">
+    <h1 class="project-title project-logo extra-margin-top"><img src="{{ logo_img_url }}" alt="{{ title }}"></h1>
+  {{else}}
+  <h1 class="project-title no-margins some-padding-top small-12 columns text-center medium-text-left">{{{ title }}}</h1>
+  <header class="small-12 medium-4 columns text-center medium-text-left">
+  {{/if}}
+    {{# if details.tagline }}<h2 class="project-tagline some-margin-top">{{ details.tagline }}</h2>{{/ if }}
+    <div class="show-for-small-only row" id="mobilemenu-container">
+      <dl class="accordion" data-accordion="mobileMenuAccordion" data-magellan-expedition="fixed">
+        <dd class="accordion-navigation">
+          <a href="#mobilemenu">&#9776;&nbsp;Menu</a>
+          <div id="mobilemenu" class="content no-paddings">
+            <ul class="stack button-group">
+              <li data-magellan-arrival="#map"><a href="#map" class="button">Map</a></li>
+              {{#each sections}}
+                {{#if active}}{{#if menu_label}}
+                <li data-magellan-arrival="section-{{ slug }}"><a href="#section-{{ slug }}" class="button">{{ menu_label }}</a></li>
+                {{/if}}{{/if}}
+              {{/each}}
+              {{#if details.facebook_url}}<li class="social-link"><a href="{{ details.facebook_url }}" class="button"><img src="{{ static_url }}/images/social-facebook.gif"> Join us on Facebook!</a></li>{{/if}}
+              {{#if details.instagram_url}}<li class="social-link"><a href="{{ details.instagram_url }}" class="button"><img src="{{ static_url }}/images/social-instagram.gif"> Follow us on Instagram!</a></li>{{/if}}
+              {{#if details.twitter_url}}<li class="social-link"><a href="{{ details.twitter_url }}" class="button"><img src="{{ static_url }}/images/social-twitter.gif"> Follow us on Twitter!</a></li>{{/if}}
+            </ul>
+          </div>
+        </dd>
+      </dl>
+    </div>
+    <div class="shareabouts-side-nav hide-for-small-only" data-magellan-expedition="fixed">
+      <div>
+        <ul class="side-nav">
+          {{! Think of a more general solution when you have time }}
+          {{#gte_active_section_length sections 1}}
+          <li class="divider"></li>
+          <li data-magellan-arrival="map"><a href="#map">Map</a></li>
+          {{#each sections}}
+            {{#if active}}{{#if menu_label}}
+            <li data-magellan-arrival="section-{{ slug }}"><a href="#section-{{ slug }}">{{ menu_label }}</a></li>
+            {{/if}}{{/if}}
+          {{/each}}
+          <li class="divider"></li>
+          {{/gte_active_section_length}}
+          {{#if details.facebook_url}}<li class="social-link"><a href="{{ details.facebook_url }}"><img src="{{ static_url }}/images/social-facebook.gif"> <small><span class="show-for-large-up">Join us on </span>Facebook<span class="show-for-large-up">!</span></small></a></li>{{/if}}
+          {{#if details.instagram_url}}<li class="social-link"><a href="{{ details.instagram_url }}"><img src="{{ static_url }}/images/social-instagram.gif"> <small><span class="show-for-large-up">Follow us on </span>Instagram<span class="show-for-large-up">!</span></small></a></li>{{/if}}
+          {{#if details.twitter_url}}<li class="social-link"><a href="{{ details.twitter_url }}"><img src="{{ static_url }}/images/social-twitter.gif"> <small><span class="show-for-large-up">Follow us on </span>Twitter<span class="show-for-large-up">!</span></small></a></li>{{/if}}
+        </ul>
+      </div>
+  </header>
+
+  <div class="small-12 medium-8 columns {{#if logo_img_url}} extra-padding-top{{else}} some-margin-top{{/if}} extra-padding-bottom">
+    <div class="orderable-container" id="section-list"></div>
+  </div>
+
+  <footer class="site-colophon small-12 columns">
+
+    <div class="row social-links-section text-center extra-margin-top hide-for-medium-up">
+      {{#if details.facebook_url}}
+      <div class="medium-4 columns">
+        <a href="{{ details.facebook_url }}" class="social-link">
+          <div class="panel">
+            <img src="{{ static_url }}/images/social-facebook.gif" class="some-margin-bottom">
+            <h4>Join us on <br>Facebook!</h4>
+          </div>
+        </a>
+      </div>
+      {{/if}}
+      {{#if details.instagram_url}}
+      <div class="medium-4 columns">
+        <a href="{{ details.instagram_url }}" class="social-link">
+          <div class="panel">
+            <img src="{{ static_url }}/images/social-instagram.gif" class="some-margin-bottom">
+            <h4>Follow us on <br>Instagram!</h4>
+          </div>
+        </a>
+      </div>
+      {{/if}}
+      {{#if details.twitter_url}}
+      <div class="medium-4 columns">
+        <a href="{{ details.twitter_url }}" class="social-link">
+          <div class="panel">
+            <img src="{{ static_url }}/images/social-twitter.gif" class="some-margin-bottom">
+            <h4>Follow us on <br>Twitter!</h4>
+          </div>
+        </a>
+      </div>
+      {{/if}}
+    </div>
+
+      <p class="project-contact-info text-center medium-text-left">{{{ contact }}}</p>
+      {{! NOTE: These URLs is hardcoded for the sake of pages with custom URLs. Should maybe be passed in as context? }}
+      <p class="powered-by text-center medium-text-right text-small">Powered by <a href="http://openplans.org/">OpenPlans.org</a>.</p>
+  </footer>
+
+</div><!-- end .after-shareabouts -->
+</script><script>(function(H) {var source = document.getElementById("project-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["project-tpl"] = template;H.registerPartial("project-tpl", template);})(Handlebars);</script>
+  
+  <script type="text/x-handlebars-template" id="event-tpl"><span id="event-{{ slug }}" class="event-anchor"></span>
+
+<h4 class="event-title no-margin-top"><a href="#" class="show-event-details">{{{ label }}}</a></h4>
+
+{{#if datetime_label }}
+<h5 class="event-datetime subheader" data-datetime="{{ start_datetime }}">{{ datetime_label }}</h5>
+{{/if}}
+
+<div class="row event-details hide">
+
+  <div class="medium-7 columns">
+    <div class="event-description project-text-content">{{{ description }}}</div>
+  </div>
+
+  <div class="medium-5 columns">
+    <div class="attachments-region"></div>
+  </div>
+
+</div>
+</script><script>(function(H) {var source = document.getElementById("event-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["event-tpl"] = template;H.registerPartial("event-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="timeline-section-admin-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+
+<div class="section-inactive-overlay"></div>
+
+<div class="row">
+  {{^if_fileapi_support 'cors'}}
+  <div class="small-12 columns">
+    <div class="alert-box secondary radius">
+      Your browser doesn't support adding event attachments. Please <a href="http://browsehappy.com/">upgrade</a> to use this feature.
+    </div>
+  </div>
+  {{/if_fileapi_support}}
+  <div class="small-12 columns">
+
+    {{> activation-toggle-tpl }}
+
+    <header class="section-header">
+      <div class="float-label-container">
+        <div class="h2 project-timeline-label content-editable float-label-input" data-attr="label" contenteditable>{{{ label }}}</div>
+        <span class="float-label">Timeline Title</span>
+      </div>
+    </header>
+    <ol class="event-list no-bullet"></ol>
+    <br>
+    <a href="#" class="add-event-btn button small radius">Add Event</a>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("timeline-section-admin-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["timeline-section-admin-tpl"] = template;H.registerPartial("timeline-section-admin-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="message-ajax-server-error-description">This is usually a temporary problem. Wait a minute or two, then try again. It will probably work.</script><script>(function(H) {var source = document.getElementById("message-ajax-server-error-description").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["message-ajax-server-error-description"] = template;H.registerPartial("message-ajax-server-error-description", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="project-admin-modal-tpl"><div class="{{#if public}}hide{{/if}} make-public-content">
+  <div class="modal-head">
+    <h3 class="modal-header"><span class="checked-icon">&#10004;</span> Draft Saved.</h3>
+  </div>
+  <div class="modal-body">
+    <h5>But it's still not published.</h5>
+    <p>This project is only visible to you when you're signed in. When you're ready for everyone to see it&hellip;</p>
+    <p><a href="#" class="btn btn-large btn-block btn-public">Publish This Project</a></p>
+    <hr>
+    <p style="text-align:right;"><a href="#" class="btn-close">Continue Editing</a></p>
+  </div>
+</div>
+
+<div class="{{^if public}}hide{{/if}} share-content">
+  <div class="modal-head">
+    <h3 class="modal-header"><span class="checked-icon">&#10004;</span> Project Published.</h3>
+  </div>
+  <div class="modal-body">
+    <h5>But you're not done yet!</h5>
+    <h2 class="step step-copy-url">Copy this URL</h2>
+    <input type="text" class="copy-url-input" onClick="this.select();" readonly="readonly" value="{{ window_location }}" />
+    <p>Share this project on Facebook, Twitter, Google+, and other social networks. Link to it from your own website &amp; mailing lists.</p>
+    <hr>
+    <p style="text-align:right;"><a href="#" class="btn-close">Continue Editing</a></p>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("project-admin-modal-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["project-admin-modal-tpl"] = template;H.registerPartial("project-admin-modal-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="faqs-section-admin-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+
+<div class="section-inactive-overlay"></div>
+
+<div class="row container">
+  <div class="small-12 columns">
+
+    {{> activation-toggle-tpl }}
+
+    <div class="float-label-container">
+      <div class="h3 project-faqs-label content-editable float-label-input" data-attr="label" contenteditable>{{{ label }}}</div>
+      <span class="float-label">FAQ Section Header</span>
+    </div>
+    <dl class="faq-list no-bullet"></dl>
+    <p><a href="#" class="add-faq-btn button small radius">Add FAQ</a></p>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("faqs-section-admin-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["faqs-section-admin-tpl"] = template;H.registerPartial("faqs-section-admin-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="raw-section-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+
+{{#if label}}<div class='row container'><div class='small columns'><h3 class="section-heading">{{ label }}</h3></div></div>{{/if}}
+
+{{{ details.content }}}</script><script>(function(H) {var source = document.getElementById("raw-section-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["raw-section-tpl"] = template;H.registerPartial("raw-section-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="message-ajax-unknown-error-subtitle">An unexpected error occurred on our server.</script><script>(function(H) {var source = document.getElementById("message-ajax-unknown-error-subtitle").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["message-ajax-unknown-error-subtitle"] = template;H.registerPartial("message-ajax-unknown-error-subtitle", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="attachments-section-admin-tpl">  <ol class="attachment-list no-bullet"></ol>
+
+  {{#if_fileapi_support 'cors'}}
+  <div class="event-attachment-dnd file-upload hide-for-print">
+    <p class="drop-instructions">Drop attachments here or&hellip;</p>
+    <p class="uploading-message">Uploading&hellip;</p>
+    <label class="file-upload-input-container button tiny radius"><span class="file-upload-label">Choose an Attachment</span><input name="event-attachment" class="file-upload-input" type="file" accept="*" /></label>
+  </div>
+  {{/if_fileapi_support}}
+</script><script>(function(H) {var source = document.getElementById("attachments-section-admin-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["attachments-section-admin-tpl"] = template;H.registerPartial("attachments-section-admin-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="message-ajax-authentication-error-description"><a href="signin/" target="_blank">Click here</a> to sign back in. Then come back to this page and save again.</script><script>(function(H) {var source = document.getElementById("message-ajax-authentication-error-description").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["message-ajax-authentication-error-description"] = template;H.registerPartial("message-ajax-authentication-error-description", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="project-admin-highlights-tpl">      <div class="highlight row">
+        <div class="small-12 columns">
+          <div class="panel clearfix">
+            <div class="row">
+
+              <div class="small-12 medium-4 columns">
+                {{!-- TODO: Abstract this out so that happening_now and get_involved use
+                   --       the same code
+                   --}}
+                <strong>Happening Now!</strong>
+                <p>What is currently happening with the project?</p>
+              </div>
+
+              <div class="small-12 medium-8 columns">
+                <p class="highlight-description float-label-input" data-attr="happening_now_description" contenteditable>{{{ happening_now_description }}}</p>
+                <select class="highlight-link-selector" name="happening_now_link_url" data-link-type-name="happening_now_link_type">
+                  {{#select_highlight happening_now_link_type happening_now_link_url }}
+                  <option value="" data-link-type="">Link to...</option>
+                    {{#each sections }}
+                      <option data-link-type="section" data-id="{{ id }}" value="#section-{{ slug }}">{{ label }}</option>
+                      {{#is type 'timeline'}}
+                        {{#each ../../events}}{{#if label }}
+                          <option data-link-type="event" data-id="{{ id }}" value="#event-{{ slug }}">{{ label }}</option>
+                        {{/if}}{{/each}}
+                      {{/is}}
+                    {{/each }}
+                  <option data-link-type="external" value="external-link">External Link...</option>
+                  {{/select_highlight }}
+                </select>
+                <input name="happening_now_link_url" class="highlight-external-link {{#isnt happening_now_link_type 'external' }}hide{{/isnt}}" type="text" placeholder="http://" data-attr="happening_now_link_url" value="{{#is happening_now_link_type 'external' }}{{happening_now_link_url}}{{/is}}">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="highlight row">
+        <div class="small-12 columns">
+          <div class="panel clearfix">
+            <div class="row">
+
+              <div class="small-12 medium-4 columns">
+                <strong>Get Involved!</strong>
+                <p>What can people do today (or soon) to get involved? If you have an upcoming event, choose it from the list.</p>
+              </div>
+              <div class="small-12 medium-8 columns">
+                <p class="highlight-description float-label-input" data-attr="get_involved_description" contenteditable>{{{ get_involved_description }}}</p>
+                <select class="highlight-link-selector" name="get_involved_link_url" data-link-type-name="get_involved_link_type">
+                  {{#select_highlight get_involved_link_type get_involved_link_url }}
+                  <option value="" data-link-type="">Link to...</option>
+                    {{#each sections }}
+                      <option data-link-type="section" data-id="{{ id }}" value="#section-{{ slug }}">{{ label }}</option>
+                      {{#is type 'timeline'}}
+                        {{#each ../../events}}
+                          <option data-link-type="event" data-id="{{ id }}" value="#event-{{ slug }}">{{ label }}</option>
+                        {{/each}}
+                      {{/is}}
+                    {{/each }}
+                  <option data-link-type="external" value="external-link">External Link...</option>
+                  {{/select_highlight }}
+                </select>
+                <input name="get_involved_link_url" class="highlight-external-link {{#isnt get_involved_link_type 'external' }}hide{{/isnt}}" type="text" placeholder="http://" data-attr="get_involved_link_url" value="{{#is get_involved_link_type 'external' }}{{get_involved_link_url}}{{/is}}">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></script><script>(function(H) {var source = document.getElementById("project-admin-highlights-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["project-admin-highlights-tpl"] = template;H.registerPartial("project-admin-highlights-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="project-admin-description-pieces-tpl"><h3>What's the purpose and scope?</h3>
+<p>The answers to these questions will help people understand the purpose and expected outcome of the project.</p>
+
+<p>Respond to each one briefly, using a couple of sentences. Avoid jargon.</p>
+
+<label>
+  <strong>What is the problem?</strong><br>
+  Explain the background and need for the project.
+  <textarea
+    name="project-description-problem"
+    data-heading="What is the problem?"
+    class="project-description-piece float-label-input"></textarea>
+</label>
+
+<label>
+  <strong>How does the project address the problem?</strong><br>
+  Explain how the project deals with the problem you identified above.
+  <textarea
+    name="project-description-solution"
+    data-heading="How are we addressing the problem?"
+    class="project-description-piece float-label-input"></textarea>
+</label>
+
+<label>
+  <strong>How can the community get involved?</strong><br>
+  Thinking broadly about the role of community involvement, explain how public input will inform and guide what happens. This isn't the place to list specific meetings, paint a high-level picture.
+  <textarea
+    name="project-description-involved"
+    data-heading="How can you get involved?"
+    class="project-description-piece float-label-input"></textarea>
+</label>
+
+<label>
+  <strong>What is the schedule?</strong><br>
+  Give readers a high-level understanding of when key steps will happen, even if the information is tentative. Use the timeline on the next screen to get more specific.
+  <textarea
+    name="project-description-schedule"
+    data-heading="What is the schedule?"
+    class="project-description-piece float-label-input"></textarea>
+</label>
+</script><script>(function(H) {var source = document.getElementById("project-admin-description-pieces-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["project-admin-description-pieces-tpl"] = template;H.registerPartial("project-admin-description-pieces-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="timeline-section-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+<div class="row container">
+  <div class="small-12 columns">
+    {{#if label}}<h3 class="section-heading">{{ label }}</h3>{{/if}}
+    <p class="event-tags some-margin-bottom">
+      {{#each tags}}
+      <a href="#" class="button small tertiary radius less-padding no-margin-bottom tag-btn">{{.}}</a>
+      {{/each}}
+    </p>
+    <a href="#" class="show-more-past-events hide button small round less-padding">&nbsp;Show Older Events&nbsp;</a>
+    <ol class="event-list no-bullet some-margin-top"></ol>
+    <a href="#" class="show-more-future-events hide button small round less-padding">&nbsp;Show More Events&nbsp;</a>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("timeline-section-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["timeline-section-tpl"] = template;H.registerPartial("timeline-section-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="project-tpl">{{#if cover_img_url}}
+<header data-magellan-destination="home" id="home" class="site-header has-image" style="background-image: url(&quot;{{ cover_img_url }}&quot;)">
+{{else }}
+<header data-magellan-destination="home" id="home" class="site-header">
+{{/if}}
+
+  <div class="site-header-content">
+
+    <div class="row project-header container">
+
+      <div class="social-links-header right">
+        {{#if details.facebook_url}}<a href="{{ details.facebook_url }}" class="social-link"><img src="{{ static_url }}/images/social-facebook.gif"></a>{{/if}}
+        {{#if details.instagram_url}}<a href="{{ details.instagram_url }}" class="social-link"><img src="{{ static_url }}/images/social-instagram.gif"></a>{{/if}}
+        {{#if details.twitter_url}}<a href="{{ details.twitter_url }}" class="social-link"><img src="{{ static_url }}/images/social-twitter.gif"></a>{{/if}}
+      </div>
+
+      <div class="small-12 columns text-center extra-padding-top some-padding-bottom">
+
+        <h1 class="project-title">
+          {{#if logo_img_url}}
+            <img src="{{ logo_img_url }}" alt="{{ title }}">
+          {{else}}
+            {{{ title }}}
+          {{/if}}
+        </h1>
+
+        {{# if details.tagline }}<h2 class="project-tagline">{{ details.tagline }}</h2>{{/ if }}
+
+      </div>
+    </div>
+
+    <div class="project-menu-container {{#gte sections.length 2}} has-project-menu{{/gte}}">
+      {{! Think of a more general solution when you have time }}
+      {{#gte_active_section_length sections 2}}
+      <div data-magellan-expedition="fixed" class="project-menu">
+        <div class="row container">
+          <div class="small-12 columns">
+            <ul class="sub-nav">
+              <li data-magellan-arrival="home"><a href="#home">Home</a></li>
+              {{#each sections}}
+                {{#if active}}{{#if menu_label}}
+                <li data-magellan-arrival="section-{{ slug }}"><a href="#section-{{ slug }}">{{ menu_label }}</a></li>
+                {{/if}}{{/if}}
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{/gte_active_section_length}}
+    </div>
+
+  </div><!-- end .site-header-content -->
+
+</header>
+
+<div class="orderable-container" id="section-list"></div>
+
+<div class="row social-links-section text-center extra-margin-top">
+  {{#if details.facebook_url}}
+  <div class="medium-4 columns">
+    <a href="{{ details.facebook_url }}" class="social-link">
+      <div class="panel">
+        <img src="{{ static_url }}/images/social-facebook.gif" class="some-margin-bottom">
+        <h4>Join us on <br>Facebook!</h4>
+      </div>
+    </a>
+  </div>
+  {{/if}}
+  {{#if details.instagram_url}}
+  <div class="medium-4 columns">
+    <a href="{{ details.instagram_url }}" class="social-link">
+      <div class="panel">
+        <img src="{{ static_url }}/images/social-instagram.gif" class="some-margin-bottom">
+        <h4>Follow us on <br>Instagram!</h4>
+      </div>
+    </a>
+  </div>
+  {{/if}}
+  {{#if details.twitter_url}}
+  <div class="medium-4 columns">
+    <a href="{{ details.twitter_url }}" class="social-link">
+      <div class="panel">
+        <img src="{{ static_url }}/images/social-twitter.gif" class="some-margin-bottom">
+        <h4>Follow us on <br>Twitter!</h4>
+      </div>
+    </a>
+  </div>
+  {{/if}}
+</div>
+
+<footer class="site-colophon">
+
+  <div class="row">
+    <div class="small-12 columns">
+      <p class="project-contact-info text-center medium-text-left">{{{ contact }}}</p>
+      {{! NOTE: These URLs is hardcoded for the sake of pages with custom URLs. Should maybe be passed in as context? }}
+      <p class="powered-by text-center medium-text-right text-small">Powered by <a href="http://openplans.org/">OpenPlans.org</a>.</p>
+    </div>
+  </div>
+
+</footer>
+</script><script>(function(H) {var source = document.getElementById("project-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["project-tpl"] = template;H.registerPartial("project-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="shareabouts-section-admin-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+
+<div class="section-inactive-overlay"></div>
+
+<div class="row container">
+  <div class="small-12 columns">
+
+    {{> activation-toggle-tpl }}
+
+    <div class="float-label-container">
+      <div class="h3 project-shareabouts-label content-editable float-label-input" data-attr="label" contenteditable>{{{ label }}}</div>
+      <span class="float-label">Shareabouts Map Header</span>
+    </div>
+    <div class="float-label-container">
+      <div class="project-shareabouts-description content-editable float-label-input" data-attr="description" contenteditable>{{{ details.description }}}</div>
+      <span class="float-label">Shareabouts Map Description</span>
+
+      <div class="alert-box info radius text-center">
+        Zoom and center the map to your preferred default location.
+      </div>
+
+      <div class="map"></div>
+    </div>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("shareabouts-section-admin-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["shareabouts-section-admin-tpl"] = template;H.registerPartial("shareabouts-section-admin-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="attachment-tpl">  <div class="row">
+    <div class="small-4 large-3 columns">
+      <a href="{{ url }}" class="attachment-link" target="_blank">
+        {{#if thumbnail_url}}
+          <img src="{{ thumbnail_url }}" class="attachment-icon image">
+        {{else}}
+          <img src="{{ static_url }}/images/document_generic.png" class="attachment-icon image">
+        {{/if}}
+      </a>
+    </div>
+    <div class="small-8 large-9 columns">
+      <h6 class="attachment-title" data-attr="label"><a href="{{ url }}" class="attachment-link" target="_blank">{{{ label }}}</a></h6>
+      <p class="attachment-description text-small" data-attr="description">{{{ description }}}</p>
+    </div>
+  </div>
+</script><script>(function(H) {var source = document.getElementById("attachment-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["attachment-tpl"] = template;H.registerPartial("attachment-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="image-section-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+<div class="row container">
+  <div class="small-12 columns">
+    {{#if label}}<h3 class="section-heading">{{ label }}</h3>{{/if}}
+    <div class="full-width-image-container text-center">
+      <img src="{{ details.img_url }}" class="project-image">
+    </div>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("image-section-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["image-section-tpl"] = template;H.registerPartial("image-section-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="attachments-section-tpl">  <ol class="attachment-list no-bullet"></ol>
+</script><script>(function(H) {var source = document.getElementById("attachments-section-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["attachments-section-tpl"] = template;H.registerPartial("attachments-section-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="shareabouts-section-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+<div class="row container collapse some-padding-bottom">
+  <div class="small-12 columns">
+    <div class="project-shareabouts"></div>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("shareabouts-section-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["shareabouts-section-tpl"] = template;H.registerPartial("shareabouts-section-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="message-ajax-bad-request-error-subtitle">{{#if errors.title}}
+You forgot to give your project a title.
+{{^}}
+  {{#if errors.events}}
+    {{#withFirst errors.events }}
+      {{#has_key . 'attachments'}}
+        You forgot to give an event attachment a title.
+      {{else}}
+        You forgot to give an event a title.
+      {{/has_key}}
+    {{/withFirst}}
+  {{^}}
+  Something's not right...
+  {{/if}}
+{{/if}}</script><script>(function(H) {var source = document.getElementById("message-ajax-bad-request-error-subtitle").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["message-ajax-bad-request-error-subtitle"] = template;H.registerPartial("message-ajax-bad-request-error-subtitle", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="text-section-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+<div class="row container">
+  <div class="small-12 columns">
+    {{#if label}}<h3 class="section-heading">{{ label }}</h3>{{/if}}
+    <div class="project-text-content">{{{ details.content }}}</div>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("text-section-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["text-section-tpl"] = template;H.registerPartial("text-section-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="faq-tpl"><dt class="faq-question">{{{ question }}}</dt>
+<dd class="faq-answer">{{{ answer }}}</dd>
+</script><script>(function(H) {var source = document.getElementById("faq-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["faq-tpl"] = template;H.registerPartial("faq-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="project-highlight-link-options-tpl">  <option data-type="section" data-id="{{ id }}" value="#section-{{ slug }}">{{ label }}</option>
+  {{#is type 'timeline'}}
+    {{#each ../../events}}
+      <option data-type="event" data-id="{{ id }}" value="#event-{{ slug }}">{{ label }}</option>
+    {{/each}}
+  {{/is}}
+</script><script>(function(H) {var source = document.getElementById("project-highlight-link-options-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["project-highlight-link-options-tpl"] = template;H.registerPartial("project-highlight-link-options-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="message-ajax-bad-request-error-description">{{#if errors.title}}
+Every good project needs a title. Give it a great one and save again. <small>Have a title? That's unexpected. Please <a href="mailto:{{ contact_email }}">contact us</a> so we can look into it.</small>
+{{^}}
+  {{#if errors.events}}
+  Everything needs a good title. Make sure you set titles on your events and attachments and save again. <small>Everything already have titles? That's unexpected. Please <a href="mailto:{{ contact_email }}">contact us</a> so we can look into it.</small>
+  {{^}}
+  Hm, something is unexpectedly stopping us from saving your project. Please <a href="mailto:{{ contact_email }}">contact us</a> so we can look into it. Include the following information so that we can help you as quickly as possible:<br>
+  <br>
+  <small><code>{{ debug errors }}</code></small>
+  {{/if}}
+{{/if}}</script><script>(function(H) {var source = document.getElementById("message-ajax-bad-request-error-description").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["message-ajax-bad-request-error-description"] = template;H.registerPartial("message-ajax-bad-request-error-description", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="faq-admin-tpl"><div class="float-label-container">
+  <div class="faq-question content-editable float-label-input" data-attr="question" contenteditable>{{{ question }}}</div>
+  <span class="float-label">Question</span>
+</div>
+<div class="float-label-container">
+  <div class="faq-answer content-editable float-label-input" data-attr="answer" contenteditable>{{{ answer }}}</div>
+  <span class="float-label">Answer</span>
+</div>
+<span class="delete-faq-btn label alert"><span class="delete-icon">&#10005;</span> Delete</span>
+<span class="handle">&#9783;</span>
+</script><script>(function(H) {var source = document.getElementById("faq-admin-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["faq-admin-tpl"] = template;H.registerPartial("faq-admin-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="project-admin-top-bar-tpl"><div class="contain-to-grid fixed">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name"></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="left">
+        {{#if public}}
+        <li><a href="#" class="btn-public"><span class="checked-icon">&#10004;</span>&nbsp;Published</a></li>
+        <li><a href="javascript:window.print()" class="print-btn btn"><span class="printer-icon"></span>Print Poster</a></li>
+        {{/if}}
+        {{#if id}}
+        <li>
+          <a href="#" data-reveal-id="customdomainmessage">Custom Domain</a>
+          <div id="customdomainmessage" class="reveal-modal small" data-reveal>
+            <p>Want a custom domain name for your project? No problem! Email us at <a href="mailto:{{contact_email}}">{{contact_email}}</a> to get started.</p>
+            <a href="#" class="close-reveal-modal">&#215</a>
+          </div>
+        </li>
+        {{/if}}
+      </ul>
+      <ul class="right">
+        <li><a href="/help" target="_blank" class="software-help-link">Help &amp; Feedback</a></li>
+        {{> 'user-menu' }}
+      </ul>
+    </section>
+  </nav>
+</div>
+</script><script>(function(H) {var source = document.getElementById("project-admin-top-bar-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["project-admin-top-bar-tpl"] = template;H.registerPartial("project-admin-top-bar-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="activation-toggle-tpl">    <div class="button-bar section-activation-toggle clearfix">
+      <ul class="button-group round right">
+        <li><span class="arrow-left-down">&#10553;</span> This section is: 
+          <label class="tiny button section-off">OFF<input name="active-{{id}}" class="hide active-toggle" type="radio" value="" {{^if active}}checked{{/if}}></label></li>
+        <li>
+          <label class="tiny button section-on">ON<input name="active-{{id}}" class="hide active-toggle" type="radio" value="on" {{#if active}}checked{{/if}}></label></li>
+      </ul>
+    </div></script><script>(function(H) {var source = document.getElementById("activation-toggle-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["activation-toggle-tpl"] = template;H.registerPartial("activation-toggle-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="modal-tpl"><div class="modal-head">
+  <h3 class="modal-header">{{ title }}</h3>
+</div>
+<div class="modal-body">
+  <h5>{{ subtitle }}</h5>
+  <p>{{{ description }}}</p>
+  <a href="#" class="close-reveal-modal">&#215</a>
+</div>
+</script><script>(function(H) {var source = document.getElementById("modal-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["modal-tpl"] = template;H.registerPartial("modal-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="message-ajax-no-status-error-description">It looks like your internet connection may have dropped. Please check your connection and try again.</script><script>(function(H) {var source = document.getElementById("message-ajax-no-status-error-description").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["message-ajax-no-status-error-description"] = template;H.registerPartial("message-ajax-no-status-error-description", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="raw-section-admin-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+
+<div class="section-inactive-overlay"></div>
+
+<div class="row container">
+  <div class="small-12 columns">
+
+    {{> activation-toggle-tpl }}
+
+    <div class="float-label-container">
+      <div class="h3 project-raw-label content-editable float-label-input" data-attr="label" contenteditable>{{{ label }}}</div>
+      <span class="float-label">Section Header</span>
+    </div>
+    <div class="float-label-container">
+      <textarea name="content" class="project-raw-content float-label-input" data-attr="content">{{ details.content }}</textarea>
+      <span class="float-label">Raw Section Content</span>
+    </div>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("raw-section-admin-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["raw-section-admin-tpl"] = template;H.registerPartial("raw-section-admin-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="attachment-admin-tpl"><div class="row collapse">
+
+  <div class="small-4 large-3 columns">
+
+    {{#if thumbnail_url}}
+    <div class="attachment-icon image">
+      <img src="{{ thumbnail_url }}">
+    </div>
+    {{else}}
+    <div class="attachment-icon">
+      <img src="{{ static_url }}/images/document_generic.png">
+    </div>
+    {{/if}}
+
+    <span class="delete-attachment-btn label alert">&#10005;&nbsp;Delete</span>
+
+  </div>
+
+  <div class="small-8 large-9 columns">
+
+    <div class="float-label-container">
+      <div class="h6 attachment-title content-editable float-label-input" data-attr="label" contenteditable>{{{ label }}}</div>
+      <span class="float-label">Attachment Title</span>
+    </div>
+    <div class="float-label-container">
+      <div class="attachment-description content-editable float-label-input" data-attr="description" contenteditable>{{{ description }}}</div>
+      <span class="float-label">Attachment Description</span>
+    </div>
+
+  </div>
+
+</div>
+
+<span class="handle">&#9783;</span>
+</script><script>(function(H) {var source = document.getElementById("attachment-admin-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["attachment-admin-tpl"] = template;H.registerPartial("attachment-admin-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="message-ajax-server-error-subtitle">An unexpected error occurred on our server.</script><script>(function(H) {var source = document.getElementById("message-ajax-server-error-subtitle").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["message-ajax-server-error-subtitle"] = template;H.registerPartial("message-ajax-server-error-subtitle", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="message-ajax-unknown-error-description">This is usually a temporary problem. Wait a minute or two, then try again. If you still have problems, please <a href="mailto:{{ contact_email }}">contact us</a> and we'll work to resolve the problem right away.</script><script>(function(H) {var source = document.getElementById("message-ajax-unknown-error-description").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["message-ajax-unknown-error-description"] = template;H.registerPartial("message-ajax-unknown-error-description", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="event-admin-tpl"><span id="event-{{ slug }}" class="event-anchor"></span>
+
+<div class="float-label-container">
+  <div class="h3 event-title content-editable float-label-input" data-attr="label" contenteditable>{{{ label }}}</div>
+  <span class="float-label">Event Title</span>
+</div>
+
+<div class="row">
+
+  <div class="medium-7 columns">
+
+    <div class="event-datetime-container">
+      <div class="float-label-container">
+        <div class="event-datetime content-editable float-label-input" contenteditable data-attr="datetime_label">{{ datetime_label }}</div>
+        <span class="float-label">Event Date</span>
+        <input type="text" class="event-datetime-picker hide" data-value="{{ start_datetime }}">
+        <span class="calendar-icon"></span>
+      </div>
+    </div>
+
+    <div class="float-label-container">
+      <div class="event-description content-editable float-label-input" data-attr="description" contenteditable>{{{ description }}}</div>
+      <span class="float-label">Event Description</span>
+    </div>
+
+    <span class="delete-event-btn label alert">&#10005;&nbsp;Delete Event</span>
+
+  </div>
+
+  <div class="medium-5 columns">
+
+    <div class="attachments-region hide-for-print"></div>
+
+  </div>
+
+</div>
+
+<span class="handle">&#9783;</span>
+</script><script>(function(H) {var source = document.getElementById("event-admin-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["event-admin-tpl"] = template;H.registerPartial("event-admin-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="faqs-section-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+<div class="row container">
+  <div class="small-12 columns">
+    <h3>{{{ label }}}</h3>
+    <dl class="faq-list no-bullet{{#gte details.length 4}} faq-list-collapsed{{/gte}}"></dl>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("faqs-section-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["faqs-section-tpl"] = template;H.registerPartial("faqs-section-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="message-ajax-no-status-error-subtitle">We were unable to reach our server.</script><script>(function(H) {var source = document.getElementById("message-ajax-no-status-error-subtitle").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["message-ajax-no-status-error-subtitle"] = template;H.registerPartial("message-ajax-no-status-error-subtitle", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="project-setup-tpl">{{> 'project-admin-top-bar-tpl' }}
+
+<div class="row walkthrough">
+
+  <div class="small-12 medium-10 large-9 columns small-centered">
+
+    <h2 class="modal-header">Set up your project page</h2>
+
+    <dl class="tabs progress-tabs" data-tab>
+      <dd class="active hide"><a href="#project-setup-step-intro">Intro</a></dd>
+      <dd class="step title-step"><a href="#project-setup-step-1">1</a></dd>
+      <dd class="step"><a href="#project-setup-step-2">2</a></dd>
+      <dd class="step"><a href="#project-setup-step-3">3</a></dd>
+      <dd class="step"><a href="#project-setup-step-4">4</a></dd>
+    </dl>
+
+    <div class="tabs-content">
+
+      <div class="content active" id="project-setup-step-intro">
+        <h3>Get started</h3>
+        <p>Over the next few screens, we will ask you some questions. The info you provide will be arranged into your project page.
+</p>
+        <p>To answer the questions, think about the project scope, public involvment opportunities, and other key events. Your answers aren't final, you'll be able to change and update all this info once your page is set up.</p>
+        <p>At any time, you can <a href="mailto:{{ contact_email }}">contact us</a> for help or feedback.</p>
+        <hr>
+        <a href="#project-setup-step-1" class="next-step-button button right">Let's go &gt;</a>
+      </div>
+
+      <div class="content" id="project-setup-step-1">
+        <h3>What is the name of the project?</h3>
+        <p>Provide a short, descriptive name for the project.</p>
+        <p class="project-title float-label-input" data-attr="title" contenteditable>{{{ title }}}</p>
+        <hr>
+        <a href="#project-setup-step-2" class="next-step-button button small right">Next &gt;</a>
+      </div>
+
+      <div class="content" id="project-setup-step-2">
+        <h3>Where is the project?</h3>
+        <p>Describe the geographic scope in a single sentence.</p>
+        <p class="project-location float-label-input" data-attr="location" contenteditable>{{{ location }}}</p>
+        <hr>
+        <a href="#project-setup-step-3" class="next-step-button button small right">Next &gt;</a>
+      </div>
+
+      <div class="content" id="project-setup-step-3">
+
+        {{!-- The project description, in the project-admin-description-pieces-tpl --}}
+        <div class="project-description-region"></div>
+        <hr>
+        <a href="#project-setup-step-4" class="next-step-button button small right">Next &gt;</a>
+      </div>
+
+      <div class="content" id="project-setup-step-4">
+        <h3>What's coming up?</h3>
+        <p>Two common questions for people visiting your project page: "What's happening?" and "What can I do?"</p>
+        <p>Give a short answer to each. As the project develops, keep these sections up to date.</p>
+
+        {{!-- The project highlights, in project-admin-highlights-tpl --}}
+        <div class="project-highlights-region"></div>
+        <hr>
+        <a href="#project-setup-step-done" class="finish-button button right">Create Project</a>
+      </div>
+
+    </div><!-- end .tabs-content -->
+
+  </div>
+
+</div>
+</script><script>(function(H) {var source = document.getElementById("project-setup-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["project-setup-tpl"] = template;H.registerPartial("project-setup-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="project-admin-tpl">{{> 'project-admin-top-bar-tpl' }}
+
+{{#if cover_img_url}}
+<header data-magellan-destination="home" id="home" data-attr="cover_img_url" class="site-header image-holder image-as-background has-image"
+  style="background-image: url(&quot;{{ cover_img_url }}&quot;);">
+{{else }}
+<header data-magellan-destination="home" id="home" data-attr="cover_img_url" class="site-header image-holder image-as-background">
+{{/if}}
+
+  <div class="row">
+    <div class="small-12 columns">
+
+      {{#if_fileapi_support 'cors'}}
+      <div id="cover-image-dnd" class="image-dnd file-upload">
+        <p class="drop-instructions">Drop cover photo here or&hellip;</p>
+        <p class="uploading-message">Uploading&hellip;</p>
+        <label for="cover-image-file-chooser" class="file-upload-input-container button tiny radius"><span class="file-upload-label">Choose Cover Photo</span><input name="cover-image" id="cover-image-file-chooser" class="file-upload-input" type="file" accept="image/*" /></label>
+      </div>
+      <p class="remove-cover-img-btn-container"><button class="remove-img-btn label alert" data-confirm-msg="Are you sure you want to remove your cover image?"><span class="delete-icon">&#10005;</span> Remove Cover Photo</button></p>
+      {{/if_fileapi_support}}
+    </div>
+  </div>
+
+  <div class="site-header-content">
+
+    <div class="row project-header container">
+      <div class="small-12 columns">
+
+        <div class="logo-table">
+          <div class="logo-table-row">
+            {{#if logo_img_url}}
+            <div data-attr="logo_img_url" class="logo image-holder has-image">
+            {{else}}
+            <div data-attr="logo_img_url" class="logo image-holder">
+            {{/if}}
+              <img class="image-target" src="{{ logo_img_url }}" alt="{{ title }}">
+              {{#if_fileapi_support 'cors'}}
+              <div id="logo-image-dnd" class="image-dnd file-upload">
+                <p class="drop-instructions nobreak">Drop logo here or&hellip;</p>
+                <p class="uploading-message">Uploading&hellip;</p>
+                <label for="logo-image-file-chooser" class="file-upload-input-container button tiny radius"><span class="file-upload-label">Choose Logo</span><input id="logo-image-file-chooser" name="logo-image" class="file-upload-input" type="file" accept="image/*" /></label>
+              </div>
+              <p class="remove-logo-btn-container"><button class="remove-img-btn label alert" data-confirm-msg="Are you sure you want to remove your logo?"><span class="delete-icon">&#10005;</span> Remove Logo</button></p>
+              {{/if_fileapi_support}}
+            </div>
+            <div class="float-label-container">
+              <div class="h1 project-title content-editable float-label-input" data-attr="title" contenteditable>{{{ title }}}</div>
+              <span class="float-label">Project Title</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="project-menu-container {{#gte sections.length 2}} has-project-menu{{/gte}}">
+      {{#gte sections.length 2}}
+      <div class="project-menu">
+        <div class="row container">
+          <div class="small-12 columns">
+            <ul class="sub-nav">
+              <li><a href="#home" class="home-link">Home</a></li>
+              {{#each sections}}
+              <li><a href="" class="content-editable float-label-input" data-id="{{ id }}" contenteditable>{{ menu_label }}</a></li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{/gte}}
+    </div>
+
+  </div>
+
+</header>
+
+<section class="project-details">
+  <div class="row container">
+    <div class="medium-4 medium-push-8 columns">
+      <div class="highlight">
+        {{!-- TODO: Abstract this out so that happening_now and get_involved use
+           --       the same code
+           --}}
+        <h3>Happening Now!</h3>
+        <div class="highlight-description content-editable float-label-input" data-attr="happening_now_description" contenteditable>{{{ happening_now_description }}}</div>
+        <select class="highlight-link-selector" name="happening_now_link_url" data-link-type-name="happening_now_link_type">
+          {{#select_highlight happening_now_link_type happening_now_link_url }}
+          <option value="" data-link-type="">Link to...</option>
+            {{#each sections }}
+              <option data-link-type="section" data-id="{{ id }}" value="#section-{{ slug }}">{{ label }}</option>
+              {{#is type 'timeline'}}
+                {{#each ../../events}}
+                  <option data-link-type="event" data-id="{{ id }}" value="#event-{{ slug }}">{{ label }}</option>
+                {{/each}}
+              {{/is}}
+            {{/each }}
+          <option data-link-type="external" value="external-link">External Link...</option>
+          {{/select_highlight }}
+        </select>
+        <input name="happening_now_link_url" class="highlight-external-link {{#isnt happening_now_link_type 'external' }}hide{{/isnt}}" type="text" placeholder="http://" data-attr="happening_now_link_url" value="{{#is happening_now_link_type 'external' }}{{happening_now_link_url}}{{/is}}">
+      </div>
+
+      <div class="highlight">
+        <h3>Get Involved!</h3>
+        <div class="highlight-description content-editable float-label-input" data-attr="get_involved_description" contenteditable>{{{ get_involved_description }}}</div>
+        <select class="highlight-link-selector" name="get_involved_link_url" data-link-type-name="get_involved_link_type">
+          {{#select_highlight get_involved_link_type get_involved_link_url }}
+          <option value="" data-link-type="">Link to...</option>
+            {{#each sections }}
+              <option data-link-type="section" data-id="{{ id }}" value="#section-{{ slug }}">{{ label }}</option>
+              {{#is type 'timeline'}}
+                {{#each ../../events}}
+                  <option data-link-type="event" data-id="{{ id }}" value="#event-{{ slug }}">{{ label }}</option>
+                {{/each}}
+              {{/is}}
+            {{/each }}
+          <option data-link-type="external" value="external-link">External Link...</option>
+          {{/select_highlight }}
+        </select>
+        <input name="get_involved_link_url" class="highlight-external-link {{#isnt get_involved_link_type 'external' }}hide{{/isnt}}" type="text" placeholder="http://" data-attr="get_involved_link_url" value="{{#is get_involved_link_type 'external' }}{{get_involved_link_url}}{{/is}}">
+      </div>
+    </div>
+
+    <div class="medium-8 medium-pull-4 columns">
+      <div class="float-label-container">
+        <div class="project-location content-editable float-label-input" data-attr="location" contenteditable>{{{ location }}}</div>
+        <span class="float-label">Project Location</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="orderable-container" id="section-list"></div>
+
+<footer class="site-colophon">
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="float-label-container">
+        <div class="project-contact-info content-editable float-label-input" data-attr="contact" contenteditable>{{{ contact }}}</div>
+        <span class="float-label">Contact Information</span>
+      </div>
+
+      {{#if public}}
+      <a href="#" class="save-btn button small disabled">Publish Changes</a>
+      {{else}}
+      <a href="#" class="save-btn button small disabled">Save Draft</a>
+      {{/if}}
+
+      <p class="powered-by text-right">Powered by <a href="http://openplans.org/">OpenPlans.org</a>.</p>
+    </div>
+  </div>
+</footer>
+</script><script>(function(H) {var source = document.getElementById("project-admin-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["project-admin-tpl"] = template;H.registerPartial("project-admin-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="text-section-admin-tpl"><span data-magellan-destination="section-{{ slug }}" id="section-{{ slug }}" class="section-anchor"></span>
+
+<div class="section-inactive-overlay"></div>
+
+<div class="row container">
+  <div class="small-12 columns">
+
+    {{> activation-toggle-tpl }}
+
+    <div class="float-label-container">
+      <div class="h3 project-text-label content-editable float-label-input" data-attr="label" contenteditable>{{{ label }}}</div>
+      <span class="float-label">Text Section Header</span>
+    </div>
+    <div class="float-label-container">
+      <div class="project-text-content content-editable float-label-input" data-attr="content" contenteditable>{{{ details.content }}}</div>
+      <span class="float-label">Text Section Body</span>
+    </div>
+  </div>
+</div>
+</script><script>(function(H) {var source = document.getElementById("text-section-admin-tpl").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["text-section-admin-tpl"] = template;H.registerPartial("text-section-admin-tpl", template);})(Handlebars);</script><script type="text/x-handlebars-template" id="message-ajax-authentication-error-subtitle">It looks like you're no longer signed in.</script><script>(function(H) {var source = document.getElementById("message-ajax-authentication-error-subtitle").innerHTML,template = source;template = H.compile(source);H.templates = H.templates || {};H.templates["message-ajax-authentication-error-subtitle"] = template;H.registerPartial("message-ajax-authentication-error-subtitle", template);})(Handlebars);</script>
+
+  
+
+  <ul class="hide">
+    
+
+    
+    <li itemscope itemtype="http://data-vocabulary.org/Event">
+      <header itemprop="summary">Project Kickoff</header>
+      <a itemprop="url" href="#event-project-kickoff"></a>
+      <time itemprop="startDate" datetime="Aug. 14, 2014, 5 p.m."></time>
+      <time itemprop="endDate" datetime="None"></time>
+      <div itemprop="description"></div>
+    </li>
+    
+
+    
+
+    
+    <li itemscope itemtype="http://data-vocabulary.org/Event">
+      <header itemprop="summary">Steering Committee Meeting</header>
+      <a itemprop="url" href="#event-steering-committee-meeting"></a>
+      <time itemprop="startDate" datetime="None"></time>
+      <time itemprop="endDate" datetime="None"></time>
+      <div itemprop="description"></div>
+    </li>
+    
+
+    
+
+    
+    <li itemscope itemtype="http://data-vocabulary.org/Event">
+      <header itemprop="summary">Develop Initial Routes</header>
+      <a itemprop="url" href="#event-develop-initial-routes"></a>
+      <time itemprop="startDate" datetime="None"></time>
+      <time itemprop="endDate" datetime="None"></time>
+      <div itemprop="description"></div>
+    </li>
+    
+
+    
+
+    
+    <li itemscope itemtype="http://data-vocabulary.org/Event">
+      <header itemprop="summary">Develop and Apply Evaluation Criteria</header>
+      <a itemprop="url" href="#event-develop-and-apply-evaluation-criteria"></a>
+      <time itemprop="startDate" datetime="None"></time>
+      <time itemprop="endDate" datetime="None"></time>
+      <div itemprop="description"></div>
+    </li>
+    
+
+    
+
+    
+    <li itemscope itemtype="http://data-vocabulary.org/Event">
+      <header itemprop="summary">Public Meeting #1</header>
+      <a itemprop="url" href="#event-public-meeting-1"></a>
+      <time itemprop="startDate" datetime="None"></time>
+      <time itemprop="endDate" datetime="None"></time>
+      <div itemprop="description"></div>
+    </li>
+    
+
+    
+
+    
+    <li itemscope itemtype="http://data-vocabulary.org/Event">
+      <header itemprop="summary">Identify and Evaluate Top 2 Routes</header>
+      <a itemprop="url" href="#event-identify-and-evaluate-top-2-routes"></a>
+      <time itemprop="startDate" datetime="None"></time>
+      <time itemprop="endDate" datetime="None"></time>
+      <div itemprop="description"></div>
+    </li>
+    
+
+    
+
+    
+    <li itemscope itemtype="http://data-vocabulary.org/Event">
+      <header itemprop="summary">Public Meeting #2</header>
+      <a itemprop="url" href="#event-public-meeting-2"></a>
+      <time itemprop="startDate" datetime="None"></time>
+      <time itemprop="endDate" datetime="None"></time>
+      <div itemprop="description"></div>
+    </li>
+    
+
+    
+
+    
+    <li itemscope itemtype="http://data-vocabulary.org/Event">
+      <header itemprop="summary">Select Final Route</header>
+      <a itemprop="url" href="#event-select-final-route"></a>
+      <time itemprop="startDate" datetime="None"></time>
+      <time itemprop="endDate" datetime="None"></time>
+      <div itemprop="description"></div>
+    </li>
+    
+
+    
+
+    
+    <li itemscope itemtype="http://data-vocabulary.org/Event">
+      <header itemprop="summary">Develop Implementation Strategy</header>
+      <a itemprop="url" href="#event-develop-implementation-strategy"></a>
+      <time itemprop="startDate" datetime="None"></time>
+      <time itemprop="endDate" datetime="None"></time>
+      <div itemprop="description"></div>
+    </li>
+    
+
+    
+  </ul>
+
+
+
+  
+  <script>
+    // Error logging with Sentry
+    Raven.config('https://1c0c147947be4567b85726a030f290c9@app.getsentry.com/28481').install()
+  </script>
+  
+
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    var isLocalhost = 'foxrivertrailconnections.org'.slice(0,9) === 'localhost';
+    ga('create', 'UA-47475305-2', isLocalhost ? 'none' : 'auto');
+
+    // GA Dimensions:
+    // 1 - Domain
+    // 2 - Root path
+    // 3 - Username
+    ga('set', 'dimension1', 'foxrivertrailconnections.org');
+    ga('set', 'dimension2', '/smeekins/bikeway-feasibility-study-map/');
+    ga('set', 'dimension3', '');
+
+    // Override the page info as derived from window.location with what is
+    // attached to the request, which takes into account the domain mapping.
+    ga('send', 'pageview', '/smeekins/bikeway-feasibility-study-map/' + window.location.search);
+  </script>
+  
+
+  
+</body>
+</html>
